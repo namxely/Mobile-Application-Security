@@ -1,10 +1,44 @@
-# Resources for Mobile Application Testing
+**English** | [Tiếng Việt](README.vi.md)
 
-> 🌐 **Languages:** **English** | [Tiếng Việt](README.vi.md)
+<div align="center">
 
-Curated collection of mobile application security testing guides, vulnerable labs, tools, and cheatsheets for Android and iOS penetration testing.
+# Mobile Application Security
 
-<img src="https://th.bing.com/th?id=OIP.xWR1nJNsf9n31VJFkk4A5wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="150px"> <img src="https://th.bing.com/th/id/OIP.X1UEJtsTvV8kqfrdosWfdAHaHY?w=173&h=180&c=7&r=0&o=5&pid=1.7" width="145px">
+<p><strong>Curated Android & iOS penetration testing toolkit, OWASP MAS/MASTG guides, vulnerable practice labs, and downloadable audit checklists.</strong></p>
+
+<p>
+  <a href="https://github.com/namxely/Mobile-Application-Security"><img src="https://img.shields.io/github/stars/namxely/Mobile-Application-Security?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="README.vi.md"><img src="https://img.shields.io/badge/Docs-English%20%7C%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-00A86B?style=for-the-badge" alt="Bilingual EN/VI"></a>
+  <img src="https://img.shields.io/badge/Platforms-Android%20%26%20iOS-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android & iOS">
+  <img src="https://img.shields.io/badge/Included-Labs%20%2B%204%20Checklists-3B82F6?style=for-the-badge" alt="Labs & Checklists">
+  <img src="https://img.shields.io/badge/Curated-2026-FF6B35?style=for-the-badge" alt="Curated 2026">
+</p>
+
+<p>
+  <a href="#essential-mobile-pentesting-tools">Essential Tools</a> &nbsp;·&nbsp;
+  <a href="#local-cheatsheets--checklists">Checklists</a> &nbsp;·&nbsp;
+  <a href="#android">Android</a> &nbsp;·&nbsp;
+  <a href="#android-labs">Android Labs</a> &nbsp;·&nbsp;
+  <a href="#ios">iOS</a> &nbsp;·&nbsp;
+  <a href="#ios-labs">iOS Labs</a>
+</p>
+
+<p>
+  <img src="https://th.bing.com/th?id=OIP.xWR1nJNsf9n31VJFkk4A5wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="130" alt="Android Security">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.X1UEJtsTvV8kqfrdosWfdAHaHY?w=173&h=180&c=7&r=0&o=5&pid=1.7" width="130" alt="iOS Security">
+</p>
+
+</div>
+
+> [!TIP]
+> **Includes ready-to-use files in this repo:** `i0s-cheatsheet.md`, `MPTC.md`, and two Excel checklists (`Mobile_App_Security_Checklist-English_1.2.xlsx`, `MobileApp_Checklist_2017.xlsx`).
+
+```mermaid
+flowchart LR
+  A["1. Static Analysis (JADX / MobSF / apkleaks)"] --> B["2. Dynamic & SSL Unpinning (Frida / Objection)"]
+  B --> C["3. API & Storage Audit (OWASP MASVS / MASTG)"]
+  C --> D["4. Practice Labs (DIVA / DVIA / Crackmes)"]
+```
 
 ## Table of Contents
 
@@ -137,3 +171,7 @@ Curated collection of mobile application security testing guides, vulnerable lab
 - **Original Author**: [@0xSojalSec](https://github.com/0xSojalSec)
 - **Curated & Updated**: Organized Table of Contents, deduplicated entries, updated OWASP MAS/MASTG references, removed unreachable/dead links, added essential mobile pentesting tools (OWASP MAS, MobSF, Frida, Objection, JADX, HTTP Toolkit Frida Unpinning, apkleaks), and added Vietnamese translation ([README.vi.md](README.vi.md)).
 - **License**: No upstream `LICENSE` file was included in the original repository; attribution and original links are preserved above.
+
+---
+
+If you find this curated repository useful, consider giving it a ⭐ to bookmark it and help others discover it!

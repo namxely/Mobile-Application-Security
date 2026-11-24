@@ -1,10 +1,44 @@
-# Tài Nguyên Kiểm Thử Bảo Mật Ứng Dụng Di Động (Mobile Application Security)
+[English](README.md) | **Tiếng Việt**
 
-> 🌐 **Ngôn ngữ:** [English](README.md) | **Tiếng Việt**
+<div align="center">
 
-Bộ sưu tập tổng hợp tài liệu hướng dẫn, phòng lab thực hành lỗ hổng, công cụ và cheatsheet phục vụ kiểm thử bảo mật ứng dụng Android và iOS.
+# Bảo Mật Ứng Dụng Di Động (Mobile Application Security)
 
-<img src="https://th.bing.com/th?id=OIP.xWR1nJNsf9n31VJFkk4A5wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="150px"> <img src="https://th.bing.com/th/id/OIP.X1UEJtsTvV8kqfrdosWfdAHaHY?w=173&h=180&c=7&r=0&o=5&pid=1.7" width="145px">
+<p><strong>Bộ công cụ kiểm thử xâm nhập Android & iOS, tài liệu chuẩn OWASP MAS/MASTG, phòng lab lỗ hổng và checklist kiểm thử tải dùng ngay.</strong></p>
+
+<p>
+  <a href="https://github.com/namxely/Mobile-Application-Security"><img src="https://img.shields.io/github/stars/namxely/Mobile-Application-Security?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/Docs-English%20%7C%20Ti%E1%BA%BFng%20Vi%E1%BB%87t-00A86B?style=for-the-badge" alt="Song ngữ Anh-Việt"></a>
+  <img src="https://img.shields.io/badge/Platforms-Android%20%26%20iOS-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android & iOS">
+  <img src="https://img.shields.io/badge/Included-Labs%20%2B%204%20Checklists-3B82F6?style=for-the-badge" alt="Lab & Checklist">
+  <img src="https://img.shields.io/badge/Curated-2026-FF6B35?style=for-the-badge" alt="Cập nhật 2026">
+</p>
+
+<p>
+  <a href="#công-cụ-kiểm-thử-di-động-thiết-yếu">Công cụ</a> &nbsp;·&nbsp;
+  <a href="#cheatsheet--checklist-đi-kèm">Checklists</a> &nbsp;·&nbsp;
+  <a href="#android">Android</a> &nbsp;·&nbsp;
+  <a href="#phòng-lab-thực-hành-android">Lab Android</a> &nbsp;·&nbsp;
+  <a href="#ios">iOS</a> &nbsp;·&nbsp;
+  <a href="#phòng-lab-thực-hành-ios">Lab iOS</a>
+</p>
+
+<p>
+  <img src="https://th.bing.com/th?id=OIP.xWR1nJNsf9n31VJFkk4A5wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="130" alt="Android Security">&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/OIP.X1UEJtsTvV8kqfrdosWfdAHaHY?w=173&h=180&c=7&r=0&o=5&pid=1.7" width="130" alt="iOS Security">
+</p>
+
+</div>
+
+> [!TIP]
+> **Tệp đính kèm sẵn trong repo:** `i0s-cheatsheet.md`, `MPTC.md` và hai file checklist Excel (`Mobile_App_Security_Checklist-English_1.2.xlsx`, `MobileApp_Checklist_2017.xlsx`).
+
+```mermaid
+flowchart LR
+  A["1. Phân tích Tĩnh (JADX / MobSF / apkleaks)"] --> B["2. Kiểm thử Động & Unpinning (Frida / Objection)"]
+  B --> C["3. Đánh giá API & Lưu trữ (OWASP MASVS / MASTG)"]
+  C --> D["4. Thực hành Lab (DIVA / DVIA / Crackmes)"]
+```
 
 ## Mục lục
 
@@ -137,3 +171,7 @@ Bộ sưu tập tổng hợp tài liệu hướng dẫn, phòng lab thực hành
 - **Tác giả gốc (Original Author)**: [@0xSojalSec](https://github.com/0xSojalSec)
 - **Cập nhật & Việt hóa**: Tổ chức lại mục lục, loại bỏ liên kết trùng và liên kết chết, cập nhật đường dẫn OWASP MAS/MASTG mới, bổ sung bộ công cụ thực chiến (OWASP MAS, MobSF, Frida, Objection, JADX, HTTP Toolkit Frida Unpinning, apkleaks) và biên dịch phiên bản tiếng Việt ([README.md](README.md)).
 - **Giấy phép (License)**: Kho gốc không đính kèm tệp `LICENSE`; toàn bộ nguồn tham khảo và tác giả gốc được giữ nguyên ghi nhận tại đây.
+
+---
+
+Nếu kho tài nguyên này hữu ích cho công việc của bạn, hãy tặng một ⭐ để lưu lại và giúp nhiều người biết đến hơn nhé!
